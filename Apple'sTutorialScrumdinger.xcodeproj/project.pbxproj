@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		952D58AA2A43624300F2F20E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952D58A92A43624300F2F20E /* Theme.swift */; };
 		95A1B4BB2A306E7200D93A9F /* Apple_sTutorialScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A1B4BA2A306E7200D93A9F /* Apple_sTutorialScrumdingerApp.swift */; };
 		95A1B4BD2A306E7200D93A9F /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A1B4BC2A306E7200D93A9F /* MeetingView.swift */; };
 		95A1B4BF2A306E7300D93A9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A1B4BE2A306E7300D93A9F /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		952D58A92A43624300F2F20E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		95A1B4B72A306E7200D93A9F /* Apple'sTutorialScrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple'sTutorialScrumdinger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95A1B4BA2A306E7200D93A9F /* Apple_sTutorialScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_sTutorialScrumdingerApp.swift; sourceTree = "<group>"; };
 		95A1B4BC2A306E7200D93A9F /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		952D58A82A43621900F2F20E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				952D58A92A43624300F2F20E /* Theme.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		95A1B4AE2A306E7200D93A9F = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +61,7 @@
 		95A1B4B92A306E7200D93A9F /* Apple'sTutorialScrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				952D58A82A43621900F2F20E /* Models */,
 				95A1B4BA2A306E7200D93A9F /* Apple_sTutorialScrumdingerApp.swift */,
 				95A1B4BC2A306E7200D93A9F /* MeetingView.swift */,
 				95A1B4BE2A306E7300D93A9F /* Assets.xcassets */,
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				952D58AA2A43624300F2F20E /* Theme.swift in Sources */,
 				95A1B4BD2A306E7200D93A9F /* MeetingView.swift in Sources */,
 				95A1B4BB2A306E7200D93A9F /* Apple_sTutorialScrumdingerApp.swift in Sources */,
 			);
