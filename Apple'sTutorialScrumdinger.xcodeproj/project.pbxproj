@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		952D58AA2A43624300F2F20E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952D58A92A43624300F2F20E /* Theme.swift */; };
 		952D58AC2A4366DD00F2F20E /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952D58AB2A4366DD00F2F20E /* DailyScrum.swift */; };
+		952D58AE2A43693C00F2F20E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952D58AD2A43693C00F2F20E /* CardView.swift */; };
 		95A1B4BB2A306E7200D93A9F /* Apple_sTutorialScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A1B4BA2A306E7200D93A9F /* Apple_sTutorialScrumdingerApp.swift */; };
 		95A1B4BD2A306E7200D93A9F /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A1B4BC2A306E7200D93A9F /* MeetingView.swift */; };
 		95A1B4BF2A306E7300D93A9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A1B4BE2A306E7300D93A9F /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		952D58A92A43624300F2F20E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		952D58AB2A4366DD00F2F20E /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		952D58AD2A43693C00F2F20E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		95A1B4B72A306E7200D93A9F /* Apple'sTutorialScrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple'sTutorialScrumdinger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95A1B4BA2A306E7200D93A9F /* Apple_sTutorialScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_sTutorialScrumdingerApp.swift; sourceTree = "<group>"; };
 		95A1B4BC2A306E7200D93A9F /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 			children = (
 				952D58A82A43621900F2F20E /* Models */,
 				95A1B4BA2A306E7200D93A9F /* Apple_sTutorialScrumdingerApp.swift */,
+				952D58AD2A43693C00F2F20E /* CardView.swift */,
 				95A1B4BC2A306E7200D93A9F /* MeetingView.swift */,
 				95A1B4BE2A306E7300D93A9F /* Assets.xcassets */,
 				95A1B4C02A306E7300D93A9F /* Preview Content */,
@@ -155,6 +158,7 @@
 				952D58AA2A43624300F2F20E /* Theme.swift in Sources */,
 				95A1B4BD2A306E7200D93A9F /* MeetingView.swift in Sources */,
 				95A1B4BB2A306E7200D93A9F /* Apple_sTutorialScrumdingerApp.swift in Sources */,
+				952D58AE2A43693C00F2F20E /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
