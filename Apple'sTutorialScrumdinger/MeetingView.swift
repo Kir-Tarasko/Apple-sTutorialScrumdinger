@@ -21,7 +21,7 @@ struct MeetingView: View {
                 VStack(alignment: .trailing) {
                     Text("Seconds Remaining")
                         .font(.caption)
-                    Label("600", systemImage: "hourglass.bottomhalf.fill")
+                    Label("700", systemImage: "hourglass.bottomhalf.fill")
                 }
             }
             .accessibilityElement(children: .ignore)
